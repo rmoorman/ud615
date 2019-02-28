@@ -4,6 +4,7 @@ metadata:
   name: "secure-monolith"
   labels:
     app: monolith
+    secure: enabled
 spec:
   containers:
     - name: nginx
